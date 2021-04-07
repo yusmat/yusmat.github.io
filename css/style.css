@@ -170,7 +170,7 @@ a:hover, .nav_item:hover{
 }
 .column{
     width: 50%;
-    display: inherit;
+    text-align: center;
 }
 .column.B{
     height: 60%;
@@ -185,7 +185,6 @@ a:hover, .nav_item:hover{
 }
 .sampleImage{
     width: 50%;
-    transform: scale(0.8);
 }
 
 
@@ -350,8 +349,7 @@ a:hover, .nav_item:hover{
 }
 @media only screen and (max-width: 660px){
     .top{
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-position: center;
     }
     .row{
         flex-direction: column !important;

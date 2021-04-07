@@ -147,6 +147,7 @@ a:hover, .nav_item:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 
@@ -156,7 +157,6 @@ a:hover, .nav_item:hover{
     filter: drop-shadow(2px 4px 12px grey);
     width: 60%;
     margin: auto;
-    /* transform: scale(1); */
 }
 .column.about{
     text-align: center;
@@ -187,7 +187,7 @@ a:hover, .nav_item:hover{
     color: #082b48;
 }
 .sampleImage{
-    width: 50%;
+    width: 45%;
     padding: 20px;
 }
 
@@ -277,6 +277,7 @@ a:hover, .nav_item:hover{
 
 
 /* UI/UX */
+
 #appA{
     color:white;
     background-color:#0FDB6E;

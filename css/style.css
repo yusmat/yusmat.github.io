@@ -1,0 +1,371 @@
+body{
+    color: #082b48;
+    line-height: 1.5;
+    background: linear-gradient(90deg, #87adb1 0,#d5dafb 58%);
+}
+h1,h2, .nav_items{
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    line-height: 1.5em;
+}
+.container{
+    width: 90%;
+    /* max-width: 980px; */
+    margin: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: #082b48;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: #082b48;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    margin-left: 10%;
+}
+
+/* NAVOGATION */
+.nav_container{
+    height: 100%;
+    position: fixed;
+    width: 10%;
+    background-color: #7a7a7a;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    opacity: 0.8;
+}
+.nav_top{
+    display: flex;
+    height: 50%;
+}
+.nav_title{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+.nav_bottom{
+    height: 50%;
+}
+.nav_items{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+a:hover, .nav_item:hover{
+    color: white;
+}
+.nav_item{
+    padding: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+/* DROPDOWN */
+.dropdown{
+    display: none;
+}
+.showDrop{
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    top: 85%;
+    padding: 5px;
+    background-color: #696765;
+    border-radius: 10px;
+    animation-name: showDrop;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes showDrop{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* TOP */
+.top{
+    background-image: url('/image/DSC_0056-3.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    /* position: absolute; */
+    padding: 28vh 0 50vh 0 ;
+    /* text-align: center; */
+    position: relative;
+
+}
+.top_title{
+    padding-left: 60px;
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    padding-left: 15%;
+
+}
+.top_title:nth-child(1){
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+
+.box{
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
+}
+
+.subtitle{
+    text-align: center;
+    margin: 60px;
+    font-size: 2em;
+    color: #424242;
+    font-weight: bold;
+    padding: 10% auto ;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* About */
+.profilePic{
+    filter: drop-shadow(2px 4px 12px grey);
+    width: 60%;
+    margin: auto;
+    transform: scale(1);
+}
+
+
+/* WORK */
+.work .column{
+    width: 35%;
+}
+
+.work .container{
+    width: 100%;
+}
+.column{
+    width: 50%;
+    display: inherit;
+}
+.column.B{
+    height: 60%;
+    display: block;
+    background: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    margin: 20px;
+}
+.column.B .subtext{
+    color: #082b48;
+}
+.sampleImage{
+    width: 50%;
+    transform: scale(0.8);
+}
+.sampleImage.web{
+    transform: scale(1);
+}
+
+.subtext{
+    padding: 10%;
+    font-size: 85%;
+}
+.btn{
+    font-size: 1.2em;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(2);
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1em;
+    height: auto;
+    padding: 2%;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    outline: none;
+    background: rgba(20, 177, 143, 0.7);
+    backdrop-filter: blur(10px);
+    outline: none;
+    color: white;
+}
+#resumeButton{
+    font-weight: bold;
+    color: #897249;
+}
+#resumeButton:hover{
+    background-color: #897249;
+    color: white;
+}
+.btn.main{
+    font-size: 1.3em;
+    height: auto;
+    padding: 7% 12%;
+    border-radius: 50px;
+}
+
+.contact_info{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* WEB DESIGN */
+#webPage .sampleImage{
+    width: 100%;
+}
+
+.wrapper_column{
+    padding: 5%;
+}
+
+.order_column{
+    line-height: 2em;
+}
+.title_column{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#wdA{
+    background-color: #897249;
+    color: white;
+}
+#wdA:hover{
+    background-color: #fff;
+    color: #897249;
+}
+#wdB{
+    background-color: #58B9FF;
+    color: white;
+}
+#wdB:hover{
+    background-color: #fff;
+    color: #58B9FF;
+}
+
+
+/* UI/UX */
+#appA{
+    color:white;
+    background-color:#0FDB6E;
+}
+#appB{
+    color: white;
+    background-color: #0C9EF9;
+}
+#appA:hover{
+    background-color: white;
+    color: #0FDB6E;
+}
+
+#appB:hover{
+    background-color: white;
+    color: #0C9EF9;
+}
+@media only screen and (max-width: 960px){
+    .wrapper{
+        transform: translateY(3%);
+        margin-left: 0px;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .column{
+        width: 100%;
+    }
+    .nav_container{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        padding: 2em;
+    }
+    .nav_items{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_item{
+        margin: auto 20px;
+    }
+
+    .btn.main{
+        padding: 7% 12%;
+        width: 100%;
+        border-radius: 50px;
+        margin: auto 10%;
+    }
+    /* Profile */
+    .profilePic{
+        width: 50%;
+        margin: auto;
+    }
+    /* Work */
+    .work .row{
+        flex-direction: row;
+
+    }
+    .column{
+        width: 100%;
+    }
+    /* DROPDOWN */
+    .showDrop{
+        display: flex; 
+        flex-direction: column;
+        position: absolute;
+        top: 68%;
+        right: 18%;
+    }
+
+    
+}
+@media only screen and (max-width: 660px){
+    .row{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .work .column {
+        width: 80%;
+    }
+    .top_title{
+        padding: 0px;
+        font-size: 4em;
+    }
+    .btn.main{
+        font-size: 1.1em;
+        margin-top: 10%;
+        
+    }
+    
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <div class="nav_top">
+                <h2 class="nav_title"><a href="index.html">YM</a></h2>
+            </div>
+            <div class="nav_bottom">
+                <div class="nav_items">
+                    <a href="index.html"><p class="nav_item">home</p></a>
+                    <p class="nav_item">Work</p>
+                    <div class="dropdown">
+                        <a href="uiux.html"><p class="dpd_item">UI/UX</p></a>
+                        <a href="webdesign.html"><p class="dpd_item">WEB DESIGN</p></a>
+                    </div>
+                    <!-- <a href="#"><p class="nav_item">about</p></a> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="top">
+        <div class="box">
+            <h2 class="top_title">
+                UI / UX Designer
+            </h2>
+            <h1 class="top_title">
+                Yusei Matsutomo
+            </h1>
+
+        </div>
+
+    </section>
+    <section class="section about">
+        <div class="container">
+            <h2 class="subtitle about">
+                About 
+            </h2>
+            <div class="row">
+                <div class="column">
+                    <img class="profilePic"  src="./image/IMG_2261.JPG"alt="">
+                </div>
+                <div class="column B">
+                    <div class="wrapper_column">
+                        <h2 class="title_column" style="color:#897249">松友雄星</h2>
+                        <ul class="order_column">
+                            <li><b>生年月日｜</b>1997年7月14日</li>
+                            <li><b>所属</b>｜国際基督教大学</li>
+                            <li><b>学部</b>｜教養学部経営学科</li>
+                            <li><b>言語</b>｜日本語 & 英語</li>
+                            <li><b>スキル</b>｜HTML / CSS / Javascipt / Python / Figma / Adobe Illustrator / Photoshop</li>
+                        </ul>
+                        <button class="btn click" id="resumeButton" type="button" onclick="openLinkProfile();">履歴書</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="section work">
+        <div class="container">
+            <h2 class="subtitle work">
+                Work
+            </h2>
+            <div class="row">
+                <div class="column">
+                    <button class="btn main" type="button" onclick="openLinkUI();"><h2>UX/UI</h2></button>
+                </div>
+                <div class="column">
+                    <button class="btn main" type="button" onclick="openLinkDesign();"><h2>WEB DESIGN</h2></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contact">
+        <div class="container">
+            <h2 class="subtitle contact">
+                Contact
+            </h2>
+            <div class="contact_info">
+                <p class="email">email : 2012yusei@gmail.com</p>
+                <p class="phone">phone : 070-4333-6351</p>
+            </div>
+
+        </div>
+    </section>
+    <script src="/basic.js"></script>
+</body>
+</html>

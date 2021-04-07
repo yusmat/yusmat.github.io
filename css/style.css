@@ -156,7 +156,7 @@ a:hover, .nav_item:hover{
     filter: drop-shadow(2px 4px 12px grey);
     width: 60%;
     margin: auto;
-    transform: scale(1);
+    /* transform: scale(1); */
 }
 
 
@@ -187,9 +187,7 @@ a:hover, .nav_item:hover{
     width: 50%;
     transform: scale(0.8);
 }
-.sampleImage.web{
-    transform: scale(1);
-}
+
 
 .subtext{
     padding: 10%;
@@ -351,9 +349,22 @@ a:hover, .nav_item:hover{
     
 }
 @media only screen and (max-width: 660px){
+    .top{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
     .row{
         flex-direction: column !important;
         align-items: center;
+    }
+    .column.ui{
+        display: flex;
+        flex-direction: column;
+        /* margin: auto; */
+        align-items: center;
+    }
+    .sampleImage{
+        width: 70%;
     }
     .work .column {
         width: 80%;
@@ -366,6 +377,9 @@ a:hover, .nav_item:hover{
         font-size: 1.1em;
         margin-top: 10%;
         
+    }
+    .profilePic{
+        width: 80%;
     }
     
 }

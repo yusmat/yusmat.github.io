@@ -158,6 +158,9 @@ a:hover, .nav_item:hover{
     margin: auto;
     /* transform: scale(1); */
 }
+.column.about{
+    text-align: center;
+}
 
 
 /* WORK */
@@ -170,7 +173,6 @@ a:hover, .nav_item:hover{
 }
 .column{
     width: 50%;
-    text-align: center;
 }
 .column.B{
     height: 60%;
@@ -299,6 +301,9 @@ a:hover, .nav_item:hover{
         flex-direction: column;
         align-items: center;
     }
+    .row.work{
+        justify-content: space-evenly;
+    }
     .column{
         width: 100%;
     }
@@ -321,7 +326,6 @@ a:hover, .nav_item:hover{
         padding: 7% 12%;
         width: 100%;
         border-radius: 50px;
-        margin: auto 10%;
     }
     /* Profile */
     .profilePic{
@@ -342,14 +346,15 @@ a:hover, .nav_item:hover{
         flex-direction: column;
         position: absolute;
         top: 68%;
-        right: 18%;
+        right: 19%;
     }
 
     
 }
 @media only screen and (max-width: 660px){
     .top{
-        background-position: center;
+        background-position-x: right;
+        background-position-y: bottom;
     }
     .row{
         flex-direction: column !important;
@@ -372,9 +377,7 @@ a:hover, .nav_item:hover{
         font-size: 4em;
     }
     .btn.main{
-        font-size: 1.1em;
-        margin-top: 10%;
-        
+        font-size: 1.1em;   
     }
     .profilePic{
         width: 80%;

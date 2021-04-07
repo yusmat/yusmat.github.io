@@ -1,20 +1,4 @@
 
-// var mediaQuery = window.matchMedia('(max-width: 868px');
-// screenChange(mediaQuery);
-
-// mediaQuery.addListner(screenChange); 
-
-// function screenChange(mediaQuery){
-//     var nav = document.querySelector('.nav_container')
-//     if (mediaQuery.matches){
-//         nav.style.flexDirection = "row";
-//     }
-//     else{
-//         ;
-//     }
-// }
-
-
 // DROPDOWN
 $(document).ready(function(){
 	$(".nav_item:nth-child(2)").click(function(){

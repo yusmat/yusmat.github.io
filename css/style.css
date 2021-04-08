@@ -157,6 +157,7 @@ a:hover, .nav_item:hover{
     filter: drop-shadow(2px 4px 12px grey);
     width: 60%;
     margin: auto;
+    object-fit: contain;
 }
 .column.about{
     text-align: center;
@@ -174,6 +175,10 @@ a:hover, .nav_item:hover{
 .column{
     width: 50%;
     display: flex;
+    justify-content: center;
+}
+.row.work{
+    justify-content: center;
 }
 .column.B{
     /* height: 60%; */

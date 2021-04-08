@@ -109,7 +109,7 @@ a:hover, .nav_item:hover{
     background-attachment: fixed;
     background-position: center;
     /* position: absolute; */
-    /* padding: 28vh 0 50vh 0 ; */
+    padding: 28vh 0 70vh 0 ;
     /* text-align: center; */
     position: relative;
 
@@ -176,7 +176,7 @@ a:hover, .nav_item:hover{
     display: flex;
 }
 .column.B{
-    height: 60%;
+    /* height: 60%; */
     display: block;
     background: rgba(255, 255, 255, .7);
     backdrop-filter: blur(10px);
@@ -185,10 +185,6 @@ a:hover, .nav_item:hover{
 }
 .column.B .subtext{
     color: #082b48;
-}
-.sampleImage{
-    width: 45%;
-    padding: 20px;
 }
 
 
@@ -277,7 +273,11 @@ a:hover, .nav_item:hover{
 
 
 /* UI/UX */
-
+#appPage .sampleImage{
+    width: 50%;
+    padding: 20px;
+    height:auto;
+}
 #appA{
     color:white;
     background-color:#0FDB6E;

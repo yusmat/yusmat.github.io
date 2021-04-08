@@ -276,7 +276,7 @@ a:hover, .nav_item:hover{
 #appPage .sampleImage{
     width: 50%;
     padding: 20px;
-    height:auto;
+    object-fit: contain;
 }
 #appA{
     color:white;

@@ -157,7 +157,7 @@ a:hover, .nav_item:hover{
     filter: drop-shadow(2px 4px 12px grey);
     width: 60%;
     margin: auto;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 .column.about{
     text-align: center;

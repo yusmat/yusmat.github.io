@@ -246,7 +246,21 @@ a:hover, .nav_item:hover{
 #webPage .sampleImage{
     width: 100%;
 }
-
+#webPage .sampleImage:hover{
+    animation: scaleUp;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes scaleUp {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+    
+}
 .wrapper_column{
     padding: 5%;
 }

@@ -394,7 +394,7 @@ a:hover, .nav_item:hover{
 @media only screen and (max-width: 660px){
 
     .top{
-        background-image: url('/image/DSC_0056-3\ 2.JPG');
+        background-image: url('/image/mobileTop.JPG');
         background-position: left bottom;
         background-size: cover;
     }

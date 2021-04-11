@@ -1,4 +1,13 @@
 
+function openAppear(){
+    var topTexts = document.querySelector('.box');
+    topTexts.classList.toggle('introAppear');
+};
+window.addEventListener('load', openAppear);
+
+
+window.addEventListener('open', openAppear);
+
 // DROPDOWN
 $(document).ready(function(){
 	$(".nav_item:nth-child(2)").click(function(){

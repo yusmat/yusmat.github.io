@@ -395,8 +395,8 @@ a:hover, .nav_item:hover{
 
     .top{
         background-image: url('/image/mobileTop.JPG');
-        background-position: left bottom;
-        background-size: cover;
+        /* background-position: left bottom; */
+        /* background-size: cover; */
     }
     .row{
         flex-direction: column !important;

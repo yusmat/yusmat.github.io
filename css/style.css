@@ -132,7 +132,7 @@ a:hover, .nav_item:hover{
     width: 50%;
     /* padding-left: 15%; */
     padding-top: 20px;
-    font-family: -webkit-pictograph;
+    font-family: serif;
 }
 .box{
     position: relative;

@@ -240,6 +240,7 @@ a:hover, .nav_item:hover{
 #resumeButton{
     font-weight: bold;
     color: #897249;
+    border: 2px solid #897249;
 }
 #resumeButton:hover{
     background-color: #897249;

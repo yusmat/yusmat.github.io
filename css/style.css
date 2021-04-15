@@ -1,7 +1,7 @@
 body{
     color: #082b48;
     line-height: 1.5;
-    background: linear-gradient(90deg, #87adb1 0,#d5dafb 58%);
+    background: linear-gradient(118deg, #848080 0,#9a918c 58%)
 }
 h1,h2, .nav_items{
     font-family: 'Big Shoulders Display';
@@ -38,14 +38,14 @@ img{
 .nav_container{
     height: 100%;
     position: fixed;
-    width: 10%;
-    background-color: #7a7a7a;
+    width: 8%;
+    background-color: #bfbfbf;
     display: flex;
     flex-direction: column;
     padding: 2%;
     z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
-    opacity: 0.8;
+    opacity: 0.6;
 }
 .nav_top{
     display: flex;
@@ -84,8 +84,9 @@ a:hover, .nav_item:hover{
     flex-direction: column;
     position: absolute;
     top: 85%;
-    padding: 5px;
-    background-color: #696765;
+    left: 10%;
+    padding: 16px 9px;
+    background-color: #989898;
     border-radius: 10px;
     animation-name: showDrop;
     animation-duration: 0.3s;
@@ -102,7 +103,7 @@ a:hover, .nav_item:hover{
 }
 /* TOP */
 .top{
-    background-image: url('/image/DSC_0056-3.jpg');
+    background-image: url('/image/IMG_4557\ copy.JPG');
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -154,7 +155,7 @@ a:hover, .nav_item:hover{
     text-align: center;
     margin: 60px;
     font-size: 2em;
-    color: #424242;
+    color: #1f364b;
     font-weight: bold;
     padding: 10% auto ;
 }
@@ -233,7 +234,7 @@ a:hover, .nav_item:hover{
 .btn:hover{
     cursor: pointer;
     outline: none;
-    background: rgba(20, 177, 143, 0.7);
+    background:#082b48; 
     backdrop-filter: blur(10px);
     outline: none;
     color: white;
@@ -260,6 +261,9 @@ a:hover, .nav_item:hover{
 }
 
 /* WEB DESIGN */
+#webPage .subtitle{
+    font-size: 3em;
+}
 #webPage .sampleImage{
     width: 100%;
 }
@@ -299,12 +303,12 @@ a:hover, .nav_item:hover{
     color: #897249;
 }
 #wdB{
-    background-color: #58B9FF;
+    background-color: #100769;
     color: white;
 }
 #wdB:hover{
     background-color: #fff;
-    color: #58B9FF;
+    color: #100769;
 }
 
 
@@ -314,9 +318,12 @@ a:hover, .nav_item:hover{
     padding: 20px;
     object-fit: contain;
 }
+#appPage .subtitle{
+    font-size: 3em;
+}
 #appA{
     color:white;
-    background-color:#0FDB6E;
+    background-color:#631a41;
 }
 #appB{
     color: white;
@@ -324,7 +331,7 @@ a:hover, .nav_item:hover{
 }
 #appA:hover{
     background-color: white;
-    color: #0FDB6E;
+    color: #631a41;
 }
 
 #appB:hover{
@@ -356,6 +363,7 @@ a:hover, .nav_item:hover{
     .nav_items{
         flex-direction: row;
         justify-content: space-between;
+        font-size: 1.1em;
     }
     .nav_item{
         margin: auto 20px;
@@ -389,17 +397,13 @@ a:hover, .nav_item:hover{
         position: absolute;
         top: 68%;
         right: 19%;
+        left: auto;
     }
 
     
 }
 @media only screen and (max-width: 660px){
 
-    .top{
-        background-image: url('/image/mobileTop.JPG');
-        /* background-position: left bottom; */
-        /* background-size: cover; */
-    }
     .row{
         flex-direction: column !important;
         align-items: center;

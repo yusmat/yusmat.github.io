@@ -172,6 +172,7 @@ a:hover, .nav_item:hover{
     filter: drop-shadow(2px 4px 12px grey);
     width: 60%;
     margin: auto;
+    border-radius: 20px;
     /* object-fit: contain; */
 }
 .column.about{

@@ -404,9 +404,6 @@ a:hover, .nav_item:hover{
     
 }
 @media only screen and (max-width: 660px){
-    .top{
-        background-size: auto;
-    }
     .row{
         flex-direction: column !important;
         align-items: center;

@@ -339,6 +339,7 @@ a:hover, .nav_item:hover{
     color: #0C9EF9;
 }
 @media only screen and (max-width: 960px){
+   
     .wrapper{
         transform: translateY(3%);
         margin-left: 0px;
@@ -403,7 +404,9 @@ a:hover, .nav_item:hover{
     
 }
 @media only screen and (max-width: 660px){
-
+    .top{
+        background-size: auto;
+    }
     .row{
         flex-direction: column !important;
         align-items: center;
@@ -433,7 +436,8 @@ a:hover, .nav_item:hover{
         font-size: 1.1em;   
     }
     .profilePic{
-        width: 80%;
+        width: 100%;
+        margin: none;
     }
     
 }

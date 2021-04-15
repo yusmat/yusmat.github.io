@@ -4,7 +4,7 @@ body{
     background: linear-gradient(90deg, #87adb1 0,#d5dafb 58%);
 }
 h1,h2, .nav_items{
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
 }
 p{
     line-height: 1.5em;

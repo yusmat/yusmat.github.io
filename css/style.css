@@ -393,6 +393,7 @@ a:hover, .nav_item:hover{
     /* Work */
     .work .row{
         flex-direction: row;
+        
 
     }
     .column{

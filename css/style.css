@@ -418,6 +418,9 @@ a:hover, .nav_item:hover{
     
 }
 @media only screen and (max-width: 660px){
+    #logo{
+        width: 10%;
+    }
     .row{
         flex-direction: column !important;
         align-items: center;

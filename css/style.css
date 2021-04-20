@@ -180,7 +180,14 @@ a:hover, .nav_item:hover{
     text-align: center;
 }
 
-
+/* footer */
+.footer{
+    background-color: #4c5d6b;
+    text-align: right;
+    padding: 5px;
+    color: #ffffff;
+ 
+}
 /* WORK */
 .work .column{
     width: 35%;

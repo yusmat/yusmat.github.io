@@ -35,6 +35,10 @@ img{
 }
 
 /* NAVOGATION */
+#logo{
+    width: 80%;
+    opacity: 1 !important;
+}
 .nav_container{
     height: 100%;
     position: fixed;
@@ -346,7 +350,9 @@ a:hover, .nav_item:hover{
     color: #0C9EF9;
 }
 @media only screen and (max-width: 960px){
-   
+    #logo{
+        width: 10%;
+    }
     .wrapper{
         transform: translateY(3%);
         margin-left: 0px;

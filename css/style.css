@@ -37,7 +37,6 @@ img{
 /* NAVOGATION */
 #logo{
     width: 80%;
-    opacity: 1 !important;
 }
 .nav_container{
     height: 100%;
@@ -49,7 +48,7 @@ img{
     padding: 2%;
     z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 .nav_top{
     display: flex;
@@ -411,7 +410,7 @@ a:hover, .nav_item:hover{
         flex-direction: column;
         position: absolute;
         top: 68%;
-        right: 19%;
+        right: 6%;
         left: auto;
     }
 

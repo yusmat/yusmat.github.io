@@ -42,13 +42,12 @@ img{
     height: 100%;
     position: fixed;
     width: 8%;
-    background-color: #bfbfbf;
+    background-color: rgb(228,226,226, 0.7);
     display: flex;
     flex-direction: column;
     padding: 2%;
     z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
-    /* opacity: 0.6; */
 }
 .nav_top{
     display: flex;
@@ -185,10 +184,12 @@ a:hover, .nav_item:hover{
 
 /* footer */
 .footer{
-    background-color: #4c5d6b;
+    background-color: #1F364B;
     text-align: right;
     padding: 5px;
+    font-size: 0.9em;
     color: #ffffff;
+    font-family: sans-serif;
  
 }
 /* WORK */

@@ -230,7 +230,7 @@ a:hover, .nav_item:hover{
     display: block;
     margin: auto;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 30px;
     filter: drop-shadow(2);
     background-color: #ffffff;
     border: none;

@@ -20,6 +20,15 @@ $(document).ready(function(){
 	});
 });
 
+//LANG SWITCH
+const wrapper = document.querySelector('wrapper_column');
+const toggle = document.querySelector('.slider round');
+
+function switchLanguage(){
+    const content = document.querySelector('.order_column');
+    concole.log(content);
+    content.classList.toggl('en');
+}
 //BUTTON LINK
 function openLinkUI(){
     window.open('uiux.html', "_self");

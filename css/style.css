@@ -181,7 +181,10 @@ a:hover, .nav_item:hover{
 .column.about{
     text-align: center;
 }
-
+.wrapper_button{
+    display: flex;
+    justify-content: space-evenly;
+}
 /* footer */
 .footer{
     background-color: #1F364B;
@@ -254,6 +257,7 @@ a:hover, .nav_item:hover{
     font-weight: bold;
     color: #897249;
     /* border: 2px solid #897249; */
+    width: 30%;
 }
 #resumeButton:hover{
     background-color: #897249;
@@ -299,6 +303,10 @@ a:hover, .nav_item:hover{
 
 .order_column{
     line-height: 2em;
+}
+/* language change */
+.order_column.en{
+    opacity: 0;
 }
 .title_column{
     font-size: 1.5em;

@@ -21,14 +21,16 @@ $(document).ready(function(){
 });
 
 //LANG SWITCH
-const wrapper = document.querySelector('wrapper_column');
-const toggle = document.querySelector('.slider round');
+// const wrapper = document.querySelector('wrapper_column');
+// const toggle = document.querySelector('.slider round');
 
-function switchLanguage(){
-    const content = document.querySelector('.order_column');
-    concole.log(content);
-    content.classList.toggl('en');
-}
+// function switchLanguage(){
+//     const content = document.querySelector('.order_column');
+//     console.log(content);
+//     content.classList.toggle('en');
+
+// }
+
 //BUTTON LINK
 function openLinkUI(){
     window.open('uiux.html', "_self");
@@ -39,6 +41,9 @@ function openLinkDesign(){
 
 function openLinkProfile(){
     window.open('https://drive.google.com/file/d/1T-s3jugioTHDyfM3OBcbbj2kgFmMy5Lm/view?usp=sharing', "_blank");
+}
+function openLinkProfile2(){
+    window.open('https://drive.google.com/file/d/1WuTdCJlKNEdcqrdZ3aTSfh02nHX81JKP/view?usp=sharing', "_blank");
 }
 function openLinkWeb1(){
     window.open('https://drive.google.com/file/d/13AtEvto4DYzf6PCz6iRAt23exrEUBwKJ/view?usp=sharing', "_blank");

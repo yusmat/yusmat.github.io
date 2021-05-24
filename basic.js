@@ -1,12 +1,12 @@
 
 function openAppear(){
-    var topTexts = document.querySelector('.box');
-    topTexts.classList.toggle('introAppear');
+    var topTexts = document.querySelector(".box");
+    topTexts.classList.add("introAppear");
 };
 window.addEventListener('load', openAppear);
 
 
-window.addEventListener('open', openAppear);
+// window.addEventListener('open', openAppear);
 
 // DROPDOWN
 $(document).ready(function(){

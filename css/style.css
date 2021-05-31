@@ -216,7 +216,7 @@ a:hover, .nav_item:hover{
 .column.B{
     /* height: 60%; */
     display: block;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .5);
     backdrop-filter: blur(10px);
     border-radius: 1rem;
     margin: 20px;
@@ -471,7 +471,11 @@ a:hover, .nav_item:hover{
     }
     
 }
-
+@media only screen and (max-width: 480px){
+    .box{
+        font-size: 0.7em;
+    }
+}
 
 /* The switch - the box around the slider */
 .switch {
